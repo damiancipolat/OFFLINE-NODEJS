@@ -1,0 +1,6 @@
+{
+  "webFiles"      : "./www",
+  "replicaHost"   : "http://127.0.0.1/replica/fileList.json",
+  "host"          : "http://127.0.0.1/replica/",
+  "checkInterval" : 10000
+}
