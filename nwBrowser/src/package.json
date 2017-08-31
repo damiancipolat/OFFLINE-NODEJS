@@ -1,0 +1,24 @@
+{
+  "name": "Nw browser / local server",
+  "version": "1.0.0",
+  "single-instance": true,
+  "main": "index.html",
+  "author": "Damián Cipolat",
+  "chromium-args": "--enable-logging=stderr",
+  "window": {
+    "title": "NWJS Browser",
+    "frame": true,
+    "toolbar": true,
+    "fullscreen": false,
+    "position": "center",
+    "resizable": true,
+    "width":800,
+    "height":600
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "devDependencies": {
+    "less": "^2.7.1"
+  }
+}

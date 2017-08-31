@@ -1,0 +1,1286 @@
+/*
+ * fonts.css
+ *
+ * Created on 20 de junio de 2016
+ * Copyright © 2016
+ * Author Jose Luis Franzen <b>joseluis@fktech.net</b>
+ *
+ */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../fonts/RobotoMono-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Cousine';
+  src: url('../fonts/Cousine-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cousine';
+  src: url('../fonts/Cousine-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Cousine';
+  src: url('../fonts/Cousine-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cousine';
+  src: url('../fonts/Cousine-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'FiraMono';
+  src: url('../fonts/FiraMono-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FiraMono';
+  src: url('../fonts/FiraMono-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'OxygenMono';
+  src: url('../fonts/OxygenMono-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DroidSansMono';
+  src: url('../fonts/DroidSansMono.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url('../fonts/SourceCodePro-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url('../fonts/SourceCodePro-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('../fonts/UbuntuMono-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('../fonts/UbuntuMono-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Selawik';
+  src: url('../fonts/selawkl.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Selawik';
+  src: url('../fonts/selawk.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Selawik';
+  src: url('../fonts/selawkb.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: icons8-win10;
+  src: url('../fonts/icons8-win10.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: icons8-win10;
+  src: url('../fonts/icons8-win10-light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal
+}
+
+i[class^="icons8-"]:before,
+[data-icon]:before {
+  display: inline-block;
+  font-family: icons8-win10;
+  font-style: normal;
+  font-weight: 100;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased
+}
+
+.icon-bold:before {
+  font-weight: 400!important;
+
+}
+
+.icons8-add-shopping-cart:before {
+  content: "\f100"
+}
+
+.icons8-add-user:before {
+  content: "\f101"
+}
+
+.icons8-adventures:before {
+  content: "\f102"
+}
+
+.icons8-advertising:before {
+  content: "\f103"
+}
+
+.icons8-airport:before {
+  content: "\f104"
+}
+
+.icons8-align-center:before {
+  content: "\f105"
+}
+
+.icons8-align-justify:before {
+  content: "\f106"
+}
+
+.icons8-align-left:before {
+  content: "\f107"
+}
+
+.icons8-align-right:before {
+  content: "\f108"
+}
+
+.icons8-alphabetical-sorting:before {
+  content: "\f109"
+}
+
+.icons8-alphabetical-sorting-2:before {
+  content: "\f10a"
+}
+
+.icons8-amex:before {
+  content: "\f10b"
+}
+
+.icons8-angle-down:before {
+  content: "\f10c"
+}
+
+.icons8-angle-left:before {
+  content: "\f10d"
+}
+
+.icons8-angle-right:before {
+  content: "\f10e"
+}
+
+.icons8-angle-up:before {
+  content: "\f10f"
+}
+
+.icons8-archive:before {
+  content: "\f110"
+}
+
+.icons8-area-chart:before {
+  content: "\f111"
+}
+
+.icons8-arrows-long-down:before {
+  content: "\f112"
+}
+
+.icons8-arrows-long-left:before {
+  content: "\f113"
+}
+
+.icons8-arrows-long-right:before {
+  content: "\f114"
+}
+
+.icons8-arrows-long-up:before {
+  content: "\f115"
+}
+
+.icons8-asterisk:before {
+  content: "\f116"
+}
+
+.icons8-audio-file:before {
+  content: "\f117"
+}
+
+.icons8-babys-room:before {
+  content: "\f118"
+}
+
+.icons8-bank-card:before {
+  content: "\f119"
+}
+
+.icons8-banknotes:before {
+  content: "\f11a"
+}
+
+.icons8-bar-chart:before {
+  content: "\f11b"
+}
+
+.icons8-barcode:before {
+  content: "\f11c"
+}
+
+.icons8-bed:before {
+  content: "\f11d"
+}
+
+.icons8-binoculars:before {
+  content: "\f11e"
+}
+
+.icons8-bitcoin:before {
+  content: "\f11f"
+}
+
+.icons8-bold:before {
+  content: "\f120"
+}
+
+.icons8-bookmark:before {
+  content: "\f121"
+}
+
+.icons8-box:before {
+  content: "\f122"
+}
+
+.icons8-briefcase:before {
+  content: "\f123"
+}
+
+.icons8-british-pound:before {
+  content: "\f124"
+}
+
+.icons8-brush:before {
+  content: "\f125"
+}
+
+.icons8-buy:before {
+  content: "\f126"
+}
+
+.icons8-calculator:before {
+  content: "\f127"
+}
+
+.icons8-camera:before {
+  content: "\f128"
+}
+
+.icons8-cancel:before {
+  content: "\f129"
+}
+
+.icons8-cancel-2:before {
+  content: "\f12a"
+}
+
+.icons8-cat-footprint:before {
+  content: "\f12b"
+}
+
+.icons8-checked:before {
+  content: "\f12c"
+}
+
+.icons8-checked-2:before {
+  content: "\f12d"
+}
+
+.icons8-checkmark:before {
+  content: "\f12e"
+}
+
+.icons8-chevron-down:before {
+  content: "\f12f"
+}
+
+.icons8-chevron-down-round:before {
+  content: "\f130"
+}
+
+.icons8-chevron-left:before {
+  content: "\f131"
+}
+
+.icons8-chevron-left-round:before {
+  content: "\f132"
+}
+
+.icons8-chevron-right:before {
+  content: "\f133"
+}
+
+.icons8-chevron-right-round:before {
+  content: "\f134"
+}
+
+.icons8-chevron-up:before {
+  content: "\f135"
+}
+
+.icons8-chevron-up-round:before {
+  content: "\f136"
+}
+
+.icons8-circle:before {
+  content: "\f137"
+}
+
+.icons8-circle-notch:before {
+  content: "\f138"
+}
+
+.icons8-circle-thin:before {
+  content: "\f139"
+}
+
+.icons8-clipboard:before {
+  content: "\f13a"
+}
+
+.icons8-code-file:before {
+  content: "\f13b"
+}
+
+.icons8-color-dropper:before {
+  content: "\f13c"
+}
+
+.icons8-columns:before {
+  content: "\f13d"
+}
+
+.icons8-comments:before {
+  content: "\f13e"
+}
+
+.icons8-compress:before {
+  content: "\f13f"
+}
+
+.icons8-controller:before {
+  content: "\f140"
+}
+
+.icons8-copy:before {
+  content: "\f141"
+}
+
+.icons8-copyright:before {
+  content: "\f142"
+}
+
+.icons8-create-new:before {
+  content: "\f143"
+}
+
+.icons8-crop:before {
+  content: "\f144"
+}
+
+.icons8-cut:before {
+  content: "\f145"
+}
+
+.icons8-database:before {
+  content: "\f146"
+}
+
+.icons8-dining-room:before {
+  content: "\f147"
+}
+
+.icons8-diploma-1:before {
+  content: "\f148"
+}
+
+.icons8-doctor:before {
+  content: "\f149"
+}
+
+.icons8-document:before {
+  content: "\f14a"
+}
+
+.icons8-double-left:before {
+  content: "\f14b"
+}
+
+.icons8-double-right:before {
+  content: "\f14c"
+}
+
+.icons8-double-up:before {
+  content: "\f14d"
+}
+
+.icons8-down-arrow:before {
+  content: "\f14e"
+}
+
+.icons8-down-round:before {
+  content: "\f14f"
+}
+
+.icons8-down-squared:before {
+  content: "\f150"
+}
+
+.icons8-download:before {
+  content: "\f151"
+}
+
+.icons8-download-2:before {
+  content: "\f152"
+}
+
+.icons8-electrical:before {
+  content: "\f153"
+}
+
+.icons8-electricity:before {
+  content: "\f154"
+}
+
+.icons8-eraser:before {
+  content: "\f155"
+}
+
+.icons8-euro:before {
+  content: "\f156"
+}
+
+.icons8-exclamation-mark:before {
+  content: "\f157"
+}
+
+.icons8-export:before {
+  content: "\f158"
+}
+
+.icons8-fantasy:before {
+  content: "\f159"
+}
+
+.icons8-fax:before {
+  content: "\f15a"
+}
+
+.icons8-female:before {
+  content: "\f15b"
+}
+
+.icons8-file:before {
+  content: "\f15c"
+}
+
+.icons8-film:before {
+  content: "\f15d"
+}
+
+.icons8-filter:before {
+  content: "\f15e"
+}
+
+.icons8-finish-flag:before {
+  content: "\f15f"
+}
+
+.icons8-fire-extinguisher:before {
+  content: "\f160"
+}
+
+.icons8-folder:before {
+  content: "\f161"
+}
+
+.icons8-football2:before {
+  content: "\f162"
+}
+
+.icons8-gender:before {
+  content: "\f163"
+}
+
+.icons8-gender-neutral-user:before {
+  content: "\f164"
+}
+
+.icons8-genderqueer:before {
+  content: "\f165"
+}
+
+.icons8-generic-sorting:before {
+  content: "\f166"
+}
+
+.icons8-generic-sorting-2:before {
+  content: "\f167"
+}
+
+.icons8-generic-text:before {
+  content: "\f168"
+}
+
+.icons8-gift:before {
+  content: "\f169"
+}
+
+.icons8-google-wallet:before {
+  content: "\f16a"
+}
+
+.icons8-gps-device:before {
+  content: "\f16b"
+}
+
+.icons8-grid:before {
+  content: "\f16c"
+}
+
+.icons8-grid-2:before {
+  content: "\f16d"
+}
+
+.icons8-grid-3:before {
+  content: "\f16e"
+}
+
+.icons8-group:before {
+  content: "\f16f"
+}
+
+.icons8-hdd:before {
+  content: "\f170"
+}
+
+.icons8-header:before {
+  content: "\f171"
+}
+
+.icons8-home:before {
+  content: "\f172"
+}
+
+.icons8-hospital-2:before {
+  content: "\f173"
+}
+
+.icons8-idea:before {
+  content: "\f174"
+}
+
+.icons8-image-file:before {
+  content: "\f175"
+}
+
+.icons8-import:before {
+  content: "\f176"
+}
+
+.icons8-indent:before {
+  content: "\f177"
+}
+
+.icons8-info:before {
+  content: "\f178"
+}
+
+.icons8-insert-table:before {
+  content: "\f179"
+}
+
+.icons8-ipad:before {
+  content: "\f17a"
+}
+
+.icons8-iphone:before {
+  content: "\f17b"
+}
+
+.icons8-italic:before {
+  content: "\f17c"
+}
+
+.icons8-japanese-yen:before {
+  content: "\f17d"
+}
+
+.icons8-key:before {
+  content: "\f17e"
+}
+
+.icons8-keyboard:before {
+  content: "\f17f"
+}
+
+.icons8-last-quarter:before {
+  content: "\f180"
+}
+
+.icons8-left-arrow:before {
+  content: "\f181"
+}
+
+.icons8-left-round:before {
+  content: "\f182"
+}
+
+.icons8-left-squared:before {
+  content: "\f183"
+}
+
+.icons8-level-down:before {
+  content: "\f184"
+}
+
+.icons8-level-up:before {
+  content: "\f185"
+}
+
+.icons8-library:before {
+  content: "\f186"
+}
+
+.icons8-list:before {
+  content: "\f187"
+}
+
+.icons8-lock:before {
+  content: "\f188"
+}
+
+.icons8-lock-2:before {
+  content: "\f189"
+}
+
+.icons8-male:before {
+  content: "\f18a"
+}
+
+.icons8-mastercard:before {
+  content: "\f18b"
+}
+
+.icons8-minus:before {
+  content: "\f18c"
+}
+
+.icons8-monitor:before {
+  content: "\f18d"
+}
+
+.icons8-moon:before {
+  content: "\f18e"
+}
+
+.icons8-music:before {
+  content: "\f18f"
+}
+
+.icons8-news:before {
+  content: "\f190"
+}
+
+.icons8-notebook:before {
+  content: "\f191"
+}
+
+.icons8-numbered-list:before {
+  content: "\f192"
+}
+
+.icons8-numerical-sorting-12:before {
+  content: "\f193"
+}
+
+.icons8-numerical-sorting-21:before {
+  content: "\f194"
+}
+
+.icons8-old-time-camera:before {
+  content: "\f195"
+}
+
+.icons8-opened-folder:before {
+  content: "\f196"
+}
+
+.icons8-organization:before {
+  content: "\f197"
+}
+
+.icons8-outdent:before {
+  content: "\f198"
+}
+
+.icons8-paragraph:before {
+  content: "\f199"
+}
+
+.icons8-parallel-tasks:before {
+  content: "\f19a"
+}
+
+.icons8-paste:before {
+  content: "\f19b"
+}
+
+.icons8-paypal:before {
+  content: "\f19c"
+}
+
+.icons8-pdf:before {
+  content: "\f19d"
+}
+
+.icons8-pencil:before {
+  content: "\f19e"
+}
+
+.icons8-phone:before {
+  content: "\f19f"
+}
+
+.icons8-picture:before {
+  content: "\f1a0"
+}
+
+.icons8-pie-chart:before {
+  content: "\f1a1"
+}
+
+.icons8-pin-3:before {
+  content: "\f1a2"
+}
+
+.icons8-plus:before {
+  content: "\f1a3"
+}
+
+.icons8-powerpoint:before {
+  content: "\f1a4"
+}
+
+.icons8-price-tag:before {
+  content: "\f1a5"
+}
+
+.icons8-puzzle:before {
+  content: "\f1a6"
+}
+
+.icons8-qr-code:before {
+  content: "\f1a7"
+}
+
+.icons8-question-mark:before {
+  content: "\f1a8"
+}
+
+.icons8-recycling:before {
+  content: "\f1a9"
+}
+
+.icons8-refresh:before {
+  content: "\f1aa"
+}
+
+.icons8-remove-user:before {
+  content: "\f1ab"
+}
+
+.icons8-resize-diagonal:before {
+  content: "\f1ac"
+}
+
+.icons8-resize-four-directions:before {
+  content: "\f1ad"
+}
+
+.icons8-resize-horizontal:before {
+  content: "\f1ae"
+}
+
+.icons8-resize-vertical:before {
+  content: "\f1af"
+}
+
+.icons8-right-arrow:before {
+  content: "\f1b0"
+}
+
+.icons8-right-round:before {
+  content: "\f1b1"
+}
+
+.icons8-right-squared:before {
+  content: "\f1b2"
+}
+
+.icons8-rotate-left:before {
+  content: "\f1b3"
+}
+
+.icons8-rotate-right:before {
+  content: "\f1b4"
+}
+
+.icons8-rouble:before {
+  content: "\f1b5"
+}
+
+.icons8-rounded-rectangle:before {
+  content: "\f1b6"
+}
+
+.icons8-rounded-rectangle-filled:before {
+  content: "\f1b7"
+}
+
+.icons8-rupee:before {
+  content: "\f1b8"
+}
+
+.icons8-search:before {
+  content: "\f1b9"
+}
+
+.icons8-sensor:before {
+  content: "\f1ba"
+}
+
+.icons8-services:before {
+  content: "\f1bb"
+}
+
+.icons8-settings:before {
+  content: "\f1bc"
+}
+
+.icons8-share:before {
+  content: "\f1bd"
+}
+
+.icons8-shekel:before {
+  content: "\f1be"
+}
+
+.icons8-shopping-cart:before {
+  content: "\f1bf"
+}
+
+.icons8-shutdown:before {
+  content: "\f1c0"
+}
+
+.icons8-sort:before {
+  content: "\f1c1"
+}
+
+.icons8-sort-down:before {
+  content: "\f1c2"
+}
+
+.icons8-sort-left:before {
+  content: "\f1c3"
+}
+
+.icons8-sort-right:before {
+  content: "\f1c4"
+}
+
+.icons8-sort-up:before {
+  content: "\f1c5"
+}
+
+.icons8-spy:before {
+  content: "\f1c6"
+}
+
+.icons8-strikethrough:before {
+  content: "\f1c7"
+}
+
+.icons8-stripe:before {
+  content: "\f1c8"
+}
+
+.icons8-student:before {
+  content: "\f1c9"
+}
+
+.icons8-subscript:before {
+  content: "\f1ca"
+}
+
+.icons8-superscript:before {
+  content: "\f1cb"
+}
+
+.icons8-support:before {
+  content: "\f1cc"
+}
+
+.icons8-tags:before {
+  content: "\f1cd"
+}
+
+.icons8-tasks:before {
+  content: "\f1ce"
+}
+
+.icons8-text-height:before {
+  content: "\f1cf"
+}
+
+.icons8-text-width:before {
+  content: "\f1d0"
+}
+
+.icons8-ticket:before {
+  content: "\f1d1"
+}
+
+.icons8-timeline:before {
+  content: "\f1d2"
+}
+
+.icons8-todo-list:before {
+  content: "\f1d3"
+}
+
+.icons8-translation:before {
+  content: "\f1d4"
+}
+
+.icons8-trash:before {
+  content: "\f1d5"
+}
+
+.icons8-trophy:before {
+  content: "\f1d6"
+}
+
+.icons8-turkish-lira:before {
+  content: "\f1d7"
+}
+
+.icons8-umbrella:before {
+  content: "\f1d8"
+}
+
+.icons8-underline:before {
+  content: "\f1d9"
+}
+
+.icons8-undo:before {
+  content: "\f1da"
+}
+
+.icons8-unlock-2:before {
+  content: "\f1db"
+}
+
+.icons8-up-arrow:before {
+  content: "\f1dc"
+}
+
+.icons8-up-round:before {
+  content: "\f1dd"
+}
+
+.icons8-up-squared:before {
+  content: "\f1de"
+}
+
+.icons8-upload:before {
+  content: "\f1df"
+}
+
+.icons8-upload-2:before {
+  content: "\f1e0"
+}
+
+.icons8-us-dollar:before {
+  content: "\f1e1"
+}
+
+.icons8-user-female:before {
+  content: "\f1e2"
+}
+
+.icons8-user-male:before {
+  content: "\f1e3"
+}
+
+.icons8-video-call:before {
+  content: "\f1e4"
+}
+
+.icons8-video-file:before {
+  content: "\f1e5"
+}
+
+.icons8-visa:before {
+  content: "\f1e6"
+}
+
+.icons8-won:before {
+  content: "\f1e7"
+}
+
+.icons8-word:before {
+  content: "\f1e8"
+}
+
+.icons8-xls:before {
+  content: "\f1e9"
+}

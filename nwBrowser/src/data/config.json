@@ -1,0 +1,19 @@
+{
+  "base_path" : "D:\\WWW\\Test\\Node JS\\offline\\nwBrowser\\src\\data\\",
+  "server":{
+    "port"      : 80,
+    "web_files" : "/www/",
+    "virtual_routes"  : "/www/index.html"
+  },
+  "updater":{
+    "host_copy"     : "http://127.0.0.1:9000",
+    "file_list"     : "fileList.json",
+    "interval"      : 3000,
+    "download_path" : "/data/downloads/",
+    "copy_path"     : "/wwww"
+  },
+  "log":{
+    "server"  : "/logs/server/",
+    "updater" : "/logs/updater/"
+  }
+}
