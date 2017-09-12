@@ -52,7 +52,7 @@ En el archivo "/data/config.json", se encuentra la config. basica del webserver 
 ```
 
 ### Ejecución:
-Para ejecutar el proyecto ejecuar:
+Para ejecutar el proyecto ejecutar:
 
 ```sh
 $ node recorridosLoader.js
