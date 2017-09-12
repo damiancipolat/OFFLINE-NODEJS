@@ -9,3 +9,6 @@ Aplicación de browser creada con Node Webkit, incluye un sistema de cache y un 
 
 ### cacheServer:
 Mejora del proyecto de replicationWeb, consiste en un server nodejs que actua como proxy y sistema de descarga y cache de archivos.
+
+### requestProxy:
+Proxy server creado en nodejs, que permite redireccionar un request a un host especificado en un archivo de configuración.
