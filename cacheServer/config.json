@@ -1,0 +1,12 @@
+{
+  "server":{    
+    "port"     : 5000,
+    "webFiles" : "/www"
+  },
+  "cache" :{
+    "host"      : "http://127.0.0.1:9000",
+    "apiUrl"	: "/api",
+    "downloads" : "/www",
+    "fileRoot"  : "index.html"
+  }
+}
