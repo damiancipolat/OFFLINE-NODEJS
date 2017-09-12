@@ -45,5 +45,5 @@ Cada vez que se realize un cambio en el archivo se debera correr el script que a
 Para ejecutar el proyecto ejecuar:
 
 ```sh
-$ node recorridosLoader.js
+$ node app.js
 ```
