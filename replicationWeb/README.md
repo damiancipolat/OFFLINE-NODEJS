@@ -42,7 +42,7 @@ Debe estar publicado en el server que queremos sincronizar un archivo json con e
 Cada vez que se realize un cambio en el archivo se debera correr el script que actualiza la lista de archivos y los checksums.
 ```
 ### Ejecución:
-Para ejecutar el proyecto ejecuar:
+Para ejecutar el proyecto ejecutar:
 
 ```sh
 $ node app.js
