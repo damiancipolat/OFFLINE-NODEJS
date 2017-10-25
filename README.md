@@ -1,5 +1,5 @@
 # OFFLINE-NODEJS
-![N|Solid](https://s-media-cache-ak0.pinimg.com/originals/a0/a4/9a/a0a49a2f764247af8876dd2bd59ee5d2.png =300x) 
+![N|Solid](https://s-media-cache-ak0.pinimg.com/originals/a0/a4/9a/a0a49a2f764247af8876dd2bd59ee5d2.png){:height="300px" width="154px"}
 ![N|Solid](https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg)
 
 Proyectos desarrollados con NodeJS para trabajar situaciones de trabajo 'offline'.
